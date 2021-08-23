@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap");
 
 :root {
-  --primary-color: #811341;
+  --primary-color: #ac0f0f;
   --off-white: #f3f4f6;
   --dark-gray: #6b7280;
 }
@@ -30,9 +30,6 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
-
-  /* margin-top: 1rem;
-    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -72,7 +69,6 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  /* border-bottom-left-radius: 1rem; */
 }
 .navigation .nav-brand {
   margin-left: 40%;
@@ -92,7 +88,9 @@ hr {
 
 .navigation .link-active {
   font-weight: bold;
-  background-color: #111827;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 10%;
 }
 
 /* header */
@@ -100,24 +98,28 @@ hr {
   padding: 1rem;
   text-align: center;
   padding-top: 0.5rem;
+  background-color: rgb(75, 150, 150);
 }
 
 .hero .hero-img {
   max-width: 350px;
   display: block;
   margin: auto;
+  border: solid 10px #ffffff;
 }
 
 .hero .hero-heading {
   padding-top: 1rem;
-  color: var(--dark-gray);
+  color: #f3f4f6;
   text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
-  color: var(--primary-color);
+  color: #ce9b0e;
 }
-
+.hero-heading {
+  text-decoration: underline;
+}
 /* section */
 .section {
   padding: 4rem;
@@ -134,7 +136,7 @@ hr {
 /* footer */
 .footer {
   margin-top: 2rem;
-  background-color: #5a79ac;
+  background-color: #9c3106;
   padding: 2rem 1rem;
   text-align: center;
   color: white;
